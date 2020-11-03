@@ -1,0 +1,24 @@
+/* 路由统一动效 */
+
+/* 动画形式 */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+/* 入 退 */
+.page-active,
+.page-leave-active {
+  opacity: 0;
+}
+
+/* goods_id 自定义 */
+.test-enter-active,
+.test-leave-active {
+  transition: .5s ease all;
+}
+
+.test-enter,
+.test-leave-active {
+  margin-left: -1000px;
+}
